@@ -9,7 +9,7 @@
 :root {
     --bg-color: #000;
     --font-color: #fff;
-    --secondary-bg-color: #0081C9;
+    --secondary-bg-color: #A6BB8D;
     --font: "Poppins";
 }
 body {
@@ -291,8 +291,8 @@ body::-webkit-scrollbar-track {
 
 .home__buttons button:hover{
     transition: all .3s;
-    color: #0081C9;
-    border: 1px solid #0081C9;
+    color: var(--secondary-bg-color);
+    border: 1px solid var(--secondary-bg-color);
 }
 
 
